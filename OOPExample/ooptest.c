@@ -107,8 +107,8 @@ void doOopTest() {
     puts("\nCopy of fruit:");
     // Copy fruit group to a new location on the stack.
     inventoryGroup groupCopy = groups[0];
-    // Mutate an item in our copy so we have 6 apples
-    ++groupCopy.inventory->count;
+    // Mutate an item in our copy so we have a banana
+    ++groupCopy.inventory->next->count;
     printGroup(&groupCopy);
     
     puts("\nNew values:");
