@@ -10,6 +10,7 @@
 		735BB1CE22B404AE0073B1B7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 735BB1CD22B404AE0073B1B7 /* main.c */; };
 		7397B6D922B40ACC009057D6 /* stringtest.c in Sources */ = {isa = PBXBuildFile; fileRef = 7397B6D822B40ACC009057D6 /* stringtest.c */; };
 		7397B6DC22B40B98009057D6 /* ooptest.c in Sources */ = {isa = PBXBuildFile; fileRef = 7397B6DB22B40B98009057D6 /* ooptest.c */; };
+		7397B6DF22B43ADF009057D6 /* stackVsHeap.c in Sources */ = {isa = PBXBuildFile; fileRef = 7397B6DE22B43ADF009057D6 /* stackVsHeap.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		7397B6D822B40ACC009057D6 /* stringtest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stringtest.c; sourceTree = "<group>"; };
 		7397B6DA22B40B98009057D6 /* ooptest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ooptest.h; sourceTree = "<group>"; };
 		7397B6DB22B40B98009057D6 /* ooptest.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ooptest.c; sourceTree = "<group>"; };
+		7397B6DD22B43ADF009057D6 /* stackVsHeap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stackVsHeap.h; sourceTree = "<group>"; };
+		7397B6DE22B43ADF009057D6 /* stackVsHeap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stackVsHeap.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +71,8 @@
 				7397B6D822B40ACC009057D6 /* stringtest.c */,
 				7397B6DA22B40B98009057D6 /* ooptest.h */,
 				7397B6DB22B40B98009057D6 /* ooptest.c */,
+				7397B6DD22B43ADF009057D6 /* stackVsHeap.h */,
+				7397B6DE22B43ADF009057D6 /* stackVsHeap.c */,
 			);
 			path = OOPExample;
 			sourceTree = "<group>";
@@ -130,6 +135,7 @@
 				7397B6D922B40ACC009057D6 /* stringtest.c in Sources */,
 				7397B6DC22B40B98009057D6 /* ooptest.c in Sources */,
 				735BB1CE22B404AE0073B1B7 /* main.c in Sources */,
+				7397B6DF22B43ADF009057D6 /* stackVsHeap.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

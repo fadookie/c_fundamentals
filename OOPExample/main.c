@@ -8,12 +8,16 @@
 #include <stdio.h>
 #include "stringtest.h"
 #include "ooptest.h"
+#include "stackVsHeap.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
 //    doStringTest();
 
-    doOopTest();
+//    doOopTest();
+    
+    int* heapInt = stackVsHeap();
+    printf("main got heapInt: %i\n", *heapInt);
     
     return 0;
 }
